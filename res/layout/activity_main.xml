@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screenview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <!-- <com.lingyunstrong.ewanfen.CustomVideoView
+	    android:id="@+id/videoView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" /> -->
+
+	<ImageView
+	    android:id="@+id/bgimg"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:background="@drawable/bg" />
+
+</RelativeLayout>

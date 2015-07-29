@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_shopsit" />
+
+    <EditText
+        android:id="@+id/shopsit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:hint="@string/setting_shopsithint"
+        android:ems="10">
+    	<requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/shopsit"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_cloudurl" />
+
+    <EditText
+        android:id="@+id/cloudurl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:hint="@string/setting_httphint"
+        android:ems="10" >
+
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/cloudurl"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_localhost" />
+
+    <EditText
+        android:id="@+id/localhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:hint="@string/setting_httphint"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/localhost"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_advurl"/>
+
+    <EditText
+        android:id="@+id/advurl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:hint="@string/setting_httphint"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/advurl"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_menubackimg" />
+
+    <EditText
+        android:id="@+id/menubackimg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:hint="@string/setting_httphint"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/menubackimg"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_macadr" />
+
+    <EditText
+        android:id="@+id/macadr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView6"
+        android:hint="@string/setting_macadr"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/macadr"
+        android:layout_marginTop="5dp"
+        android:text="@string/setting_qrrequest" />
+
+    <EditText
+        android:id="@+id/qrrequest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView7"
+        android:hint="@string/setting_qrrequest"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/qrrequest"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/setting_save" />
+
+</RelativeLayout>
